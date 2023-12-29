@@ -1,11 +1,24 @@
 h1 {
-    color: orange;
-    text-align: center;
-    }
+  color: orange;
+  text-align: center;
+}
 body {
-    background-color: lightblue;
-    }
-h4{
-    color:blue;
-    text-align: center;
-    }
+  background-color: lightblue;
+}
+.subtitle {
+  color: blue;
+  text-align: center;
+}
+* {
+  color: tomato;
+}
+.title,
+ol,
+ul {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  text-align: initial;
+}
+i {
+  color: inherit;
+}
