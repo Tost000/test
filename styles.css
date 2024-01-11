@@ -22,3 +22,19 @@ ul {
 i {
   color: inherit;
 }
+* {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+/* img {
+  border: 10px chartreuse dotted;
+} */
+#planet {
+  margin-left: 100px;
+  padding: 50px 20px;
+}
+/* div > img {
+  display: none;
+} */
+.start_site {
+  background-color: blueviolet;
+}
