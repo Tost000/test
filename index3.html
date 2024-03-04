@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обо мне</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300..700&family=Kode+Mono:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+      body {
+        background-color: #c3dfe0;
+      }
+      .title {
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+      }
+      .icom {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+      }
+      .container1,
+      .container2 {
+        display: flex;
+        align-content: stretch;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .block {
+        display: flex;
+        width: 200px;
+        height: 250px;
+        margin: 10px;
+        border: 5px solid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #9dad6f;
+        cursor: pointer;
+      }
+      .block:hover {
+        background-color: #778353;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Обо мне</h1>
+    <div class="container1">
+      <div class="block">
+        <imgc lass="icon" src="фото меня.png" alt="фото лица" />
+        <h3 class="title">Меня зовут Тимур мне 12 лет</h3>
+      </div>
+      <div class="block">
+        <img class="icon" src="геймпад.png" alt="геймпад" />
+        <h3 class="title">Видеоигры - мой способ отдыха и развлечения.</h3>
+      </div>
+      <div class="block">
+        <img class="icon" src="music off.png" alt="перечёркнутая нота" />
+        <h3 class="title">Музыка не цепляет меня, предпочитаю тишину.</h3>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="block">
+        <img class="icon" src="кодинг.png" alt="кодинг" />
+        <h3>Освоил несколько языков программирования!</h3>
+      </div>
+      <div class="block">
+        <img class="icon" src="кодинг.png" alt="кодинг" />
+        <h3>Программирование - мое любимое хобби!</h3>
+      </div>
+      <div class="block">
+        <img class="icon" src="game create.png" alt="создание игры" />
+        <h3 class="title">Мечтаю создать свою видеоигру.</h3>
+      </div>
+    </div>
+  </body>
+</html>
